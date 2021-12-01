@@ -8,4 +8,7 @@ This project for linux lab in Birzeit university
 
 
 # Report
+The hole idea of this project is to write a bash code that work like contacts app
+so you can add new contact to the file you choose at first then you can edit, update or delete this contact
+
 
