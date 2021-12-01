@@ -1,4 +1,4 @@
-# Bash-Scripting-Contact-program
+# Bash Scrip Contact program
 This project for linux lab in Birzeit university
 
 ![](linux.png)
