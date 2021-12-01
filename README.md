@@ -1,3 +1,6 @@
+
+(If you'd like to view the rendered Markdown Report checkout the [Github Repository](https://github.com/hammamProg/Bash-Contact-program) )
+
 # Bash Scrip Contact program
 a linux lab project at [Birzeit university](https://www.birzeit.edu/en/content/encs3130-linux-laboratory)
 
