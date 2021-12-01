@@ -1,10 +1,11 @@
 #!/usr/bin/bash
 
-# Project Lab Linux                                     student : Hammam khaled      1191081
-#                                                       Partner : Ibraheem Elilean   1201180
-#=============================== FUNCTIONS ==================================================
+# Project Lab Linux                                     thats me : Hammam 1191081
+#                                                       Partner  : Ibraheem Elilean
+#=================== FUNCTIONS =================================================================
 
 verify_phone() {
+
         read -p 'Enter phone: ' phone
         re1="^[0-9]+$"                          #to check if its just numbers
 
@@ -12,8 +13,6 @@ verify_phone() {
         then
           echo -e "__Error__ -> Enter just numbers \n"
           verify_phone
-        else
-          echo ""
         fi
 
 
@@ -21,8 +20,6 @@ verify_phone() {
         then
           echo "__Error__ -> you can't left phone NULL"
           verify_phone
-        else
-          echo ""
         fi
 
         num_of_digits=${#phone}                 # ${#phone} => the number of digits
@@ -31,7 +28,7 @@ verify_phone() {
                 echo "__Error__ -> Invalid number"
                 verify_phone
         else
-                echo "[✓] valid phone"
+                echo "    [✓] valid phone"
         fi
 }
 
@@ -42,7 +39,7 @@ verify_email(){
            re="^[0-9a-zA-Z.]+\@[a-zA-Z]+\.[a-z]{1,10}$"
 
           if [[ $email =~ $re ]]; then
-            echo "[✓] valid email"
+            echo "    [✓] valid email"
           else
            echo "NOT valid."
            verify_email
@@ -74,8 +71,6 @@ read_first_name(){
         then
           echo "you can't left first name NULL"
           read_first_name
-        else
-          echo ""
         fi
 }
 
@@ -200,8 +195,12 @@ menu(){
 }
 #============================================================
 
-#Function to ask user enter the file he wants , and check if it exist
+
+
 check_file
+
 menu
+
+
 
 
