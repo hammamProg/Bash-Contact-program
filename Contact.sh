@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 
 # Project Lab Linux                                     student : Hammam khaled      1191081
-#                                                       Partner : Ibraheem Elilean   120
+#                                                       Partner : Ibraheem Elilean   1201180
 #=============================== FUNCTIONS ==================================================
 
 verify_phone() {
