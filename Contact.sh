@@ -1,8 +1,8 @@
 #!/usr/bin/bash
 
-# Project Lab Linux                                     thats me : Hammam 1191081
-#                                                       Partner  : Ibraheem Elilean
-#=================== FUNCTIONS =================================================================
+# Project Lab Linux                                     thats me : Hammam khaled      1191081
+#                                                       Partner  : Ibraheem Elilean   1201180   
+#=============================== FUNCTIONS ================================================
 
 verify_phone() {
 
@@ -194,11 +194,8 @@ menu(){
         fi
 }
 #============================================================
-
-
-
+#to let the user to add the file he want and ckeck if it exist
 check_file
-
 menu
 
 
