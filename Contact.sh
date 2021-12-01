@@ -5,23 +5,18 @@
 #=============================== FUNCTIONS ================================================
 
 verify_phone() {
-
         read -p 'Enter phone: ' phone
         re1="^[0-9]+$"                          #to check if its just numbers
-
         if  ! [[ "$phone" =~ $re1 ]]
         then
           echo -e "__Error__ -> Enter just numbers \n"
           verify_phone
         fi
-
-
         if test -z "$phone"
         then
           echo "__Error__ -> you can't left phone NULL"
           verify_phone
         fi
-
         num_of_digits=${#phone}                 # ${#phone} => the number of digits
         if  [ "$num_of_digits" -ne 10 ]
         then
@@ -34,10 +29,9 @@ verify_phone() {
 
 
 
-verify_email(){
+verify_email() {
            read -p 'Enter email: ' email
            re="^[0-9a-zA-Z.]+\@[a-zA-Z]+\.[a-z]{1,10}$"
-
           if [[ $email =~ $re ]]; then
             echo "    [✓] valid email"
           else
@@ -48,7 +42,6 @@ verify_email(){
 
 
 check_file(){
-
         read -p 'contact_file: ' file
         FILE="./$file"
         if [ -f "$FILE" ]; then         #CHECK if the file exist
@@ -66,7 +59,6 @@ save_contact(){
 
 read_first_name(){
         read -p 'first name: ' f_name
-
         if test -z "$f_name"
         then
           echo "you can't left first name NULL"
@@ -80,10 +72,8 @@ add_new_contact(){
         read -p 'last name: ' l_name
         verify_phone
         verify_email
-
+        #to save this new contact to the file
         save_contact
-
-
 }
 
 list(){
@@ -99,7 +89,6 @@ list(){
         esac
 }
 
-
 search(){
         echo "|->  search for contact with name"
         read -p 'First name to search: ' searched_f_name
@@ -111,7 +100,6 @@ search(){
 update(){
         #update specific meaning and save it
         echo -e "What you want to update: \n\t1)First Name \n\t2)Last Name \n\t3)Phone\n\t4)Email"
-
         read -p 'Enter number of choice:' num_to_change
         case "$num_to_change" in
         1)
@@ -167,7 +155,6 @@ menu(){
 
         read -p '---> Enter Your choice: ' choice
 
-
         case "$choice" in
         1)
          add_new_contact;;
@@ -183,7 +170,6 @@ menu(){
          exit 0;;
         *)
          echo " --> invaled input"
-
         esac
 
         if test "$choice" -ne 0
