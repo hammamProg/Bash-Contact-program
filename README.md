@@ -5,6 +5,11 @@ This is the first project in the linux lab couarse at [Birzeit university](https
 
 ##### This project was done using the debian-based linux, [Kali Linux](https://www.kali.org/)
 
+## Contributors
+
+* > Hammam Khaled     1191081
+* > Ibraheem Alyan    1201180
+
 # Report
 The idea of this project is to write a bash script that works like a contacts dictionary app
 so the user can:
@@ -16,37 +21,37 @@ so the user can:
 # Sample Run
 
 ### File existance check
-![](img/check if file exist.PNG)
+![](img/file_existance.png)
 
 ### Exit
-![](img/exit.PNG)
+![](img/exit.png)
 
 ## Menu Commands
 
 ----------------------------
 
 #### Add Contact
-![](img/add new contact.PNG)
+![](img/add_new_contact.png)
 
 ----------------------------
 
 #### List contacts based on first name
-![](img/list base 1.PNG)
+![](img/list_base_1.png)
 
 #### List contacts based on last name
-![](img/list base 2.PNG)
+![](img/list_base_2.png)
 
 ----------------------------
 
 #### Search for Contact
-![](img/search.PNG)
+![](img/search.png)
 
 ----------------------------
 
 #### Edit Contact
-![](img/update.PNG)
+![](img/update.png)
 
 ----------------------------
 
 #### Delete Contact
-![](img/delete.PNG)
+![](img/delete.png)
