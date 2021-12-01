@@ -3,6 +3,8 @@ a linux lab project at [Birzeit university](https://www.birzeit.edu/en/content/e
 
 > The output below was done using the debian-based linux, [Kali Linux](https://www.kali.org/)
 
+## The script file [Contact.sh](Contact.sh)
+
 ## Contributors
 
 * > Hammam Khaled     1191081
